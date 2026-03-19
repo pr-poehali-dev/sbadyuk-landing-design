@@ -69,9 +69,24 @@ export default function StylesVKFooter() {
         border: none;
         cursor: pointer;
         border-radius: 2px;
-        transition: opacity 0.2s;
+        transition: opacity 0.2s, transform 0.15s;
+        position: relative;
+        overflow: hidden;
       }
-      .vk-card-btn:hover { opacity: 0.85; }
+      .vk-card-btn::after {
+        content: '';
+        position: absolute;
+        top: 50%; left: 50%;
+        width: 0; height: 0;
+        background: rgba(255,255,255,0.35);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+      }
+      .vk-card-btn:hover::after {
+        animation: flash-pulse 0.6s ease-out forwards;
+      }
+      .vk-card-btn:hover { opacity: 0.9; transform: translateY(-1px); }
       .vk-dots {
         display: flex;
         justify-content: center;

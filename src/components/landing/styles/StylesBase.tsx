@@ -171,6 +171,38 @@ export default function StylesBase() {
         transition: background 0.2s, transform 0.15s;
         width: fit-content;
         font-weight: 600;
+        position: relative;
+        overflow: hidden;
+      }
+      .hero-cta::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        background: rgba(255,255,255,0.35);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        transition: width 0.45s ease, height 0.45s ease, opacity 0.45s ease;
+        opacity: 0;
+      }
+      .hero-cta:active::after {
+        width: 400px;
+        height: 400px;
+        opacity: 0;
+        transition: 0s;
+      }
+      .hero-cta:hover::after {
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        animation: flash-pulse 0.6s ease-out forwards;
+      }
+      @keyframes flash-pulse {
+        0%   { width: 0; height: 0; opacity: 0.6; }
+        60%  { width: 320px; height: 320px; opacity: 0.25; }
+        100% { width: 380px; height: 380px; opacity: 0; }
       }
       .hero-cta:hover {
         background: var(--fire-dark);
