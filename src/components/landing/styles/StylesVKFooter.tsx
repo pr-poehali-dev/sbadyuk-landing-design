@@ -34,6 +34,20 @@ export default function StylesVKFooter() {
         transform: translateY(-4px);
         box-shadow: 0 12px 40px rgba(0,0,0,0.4);
       }
+      .vk-card::after {
+        content: '';
+        position: absolute;
+        top: 50%; left: 50%;
+        width: 0; height: 0;
+        background: rgba(255,255,255,0.12);
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+      }
+      .vk-card:active::after {
+        animation: flash-pulse 0.5s ease-out forwards;
+      }
       .vk-card-tag {
         display: inline-block;
         font-family: var(--font-head);
