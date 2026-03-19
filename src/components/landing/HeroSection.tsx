@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Icon from "@/components/ui/icon";
 
-const HERO_IMAGE = "https://cdn.poehali.dev/projects/175589f0-83d7-4044-b118-3cc3dffd90c7/files/4e7aecd0-2d97-430e-a1c0-490a8f2a64c4.jpg";
+const HERO_IMAGE = "https://drive.google.com/thumbnail?id=1urU_CP45LGlq3UwhtBoqFZxN8RU14CSQ&sz=w1600";
 
 function useCountdown(targetHours: number) {
   const [time, setTime] = useState({ h: targetHours, m: 0, s: 0 });
