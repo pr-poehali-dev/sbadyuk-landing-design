@@ -51,11 +51,10 @@ export default function StylesBase() {
         align-items: center;
       }
       .nav-logo-img {
-        height: 40px;
+        height: 44px;
         width: auto;
         object-fit: contain;
-        filter: brightness(0) saturate(100%) invert(22%) sepia(96%) saturate(1500%) hue-rotate(336deg) brightness(100%);
-        mix-blend-mode: screen;
+        filter: hue-rotate(200deg) saturate(3) brightness(0.95);
       }
       .nav-links {
         list-style: none;
