@@ -165,6 +165,90 @@ export default function StylesVKFooter() {
         color: var(--text-muted);
       }
 
+      /* ── SIGNUP FORM ── */
+      .signup-form-wrap {
+        width: 100%;
+        max-width: 520px;
+        margin-top: 16px;
+        background: #111;
+        border: 1px solid rgba(230,57,70,0.25);
+        border-radius: 6px;
+        padding: 40px 36px;
+      }
+      .signup-form-title {
+        font-family: var(--font-head);
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 28px;
+        text-align: center;
+      }
+      .signup-fields {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+      }
+      .signup-field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        text-align: left;
+      }
+      .signup-label {
+        font-family: var(--font-head);
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+      }
+      .signup-input {
+        background: #1a1a1a;
+        border: 1px solid #2a2a2a;
+        border-radius: 3px;
+        padding: 12px 16px;
+        color: #fff;
+        font-size: 0.95rem;
+        outline: none;
+        transition: border-color 0.2s;
+        width: 100%;
+      }
+      .signup-input::placeholder { color: #444; }
+      .signup-input:focus { border-color: var(--fire); }
+      .signup-submit {
+        width: 100%;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 16px 24px;
+      }
+      .signup-privacy {
+        font-size: 0.72rem;
+        color: #444;
+        text-align: center;
+        margin-top: 12px;
+      }
+      .signup-success {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding: 8px 0;
+        color: var(--fire);
+      }
+      .signup-success h3 {
+        font-family: var(--font-head);
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.06em;
+      }
+      .signup-success p {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+      }
+
       /* ── FOOTER ── */
       .landing-footer {
         background: #050505;
