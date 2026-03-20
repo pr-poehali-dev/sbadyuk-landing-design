@@ -81,7 +81,7 @@ export default function HeroSection({ menuOpen, setMenuOpen }: HeroSectionProps)
           <h1 className="hero-title">
             <span className="hero-name">СЕРГЕЯ БАДЮКА</span>
             <br />
-            <span className="hero-tagline">РЕЖИМ —<br className="mobile-br" /> ЭТО БАЗА.</span>
+            <span className="hero-tagline">РЕЖИМ — ЭТО БАЗА.</span>
           </h1>
           <p className="hero-sub">
             Для тех, кто устал существовать от выходных до выходных. Кто не чувствует в себе сил восстановить здоровье, взяться за карьеру, наладить семейные отношения и наконец сделать то, что давно откладывали.
