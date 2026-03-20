@@ -54,6 +54,8 @@ export default function StylesBase() {
         height: 40px;
         width: auto;
         object-fit: contain;
+        filter: brightness(0) saturate(100%) invert(22%) sepia(96%) saturate(1500%) hue-rotate(336deg) brightness(100%);
+        mix-blend-mode: screen;
       }
       .nav-links {
         list-style: none;

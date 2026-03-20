@@ -137,7 +137,9 @@ export default function Index() {
         {/* Нижняя строка */}
         <div className="footer-inner">
           <div className="footer-logo">
-            <img src="https://cdn.poehali.dev/projects/175589f0-83d7-4044-b118-3cc3dffd90c7/files/26cc4012-3f51-4373-95ef-76698e92bb67.jpg" alt="Бадюк" className="nav-logo-img" />
+            <a href="#home">
+              <img src="https://cdn.poehali.dev/projects/175589f0-83d7-4044-b118-3cc3dffd90c7/files/26c7f85a-faba-4934-a708-f7c80e5d43e8.jpg" alt="Бадюк" className="nav-logo-img" />
+            </a>
           </div>
           <p className="footer-copy">© 2024 Сергей Бадюк. Все права защищены.</p>
           <div className="footer-links">
