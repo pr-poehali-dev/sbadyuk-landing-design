@@ -20,6 +20,7 @@ export default function StylesSections() {
         text-transform: uppercase;
       }
       .section-title.dark { color: #1a1208; }
+      .section-title--center { text-align: center; }
       .text-fire { color: var(--fire); }
       .section-desc {
         font-size: 1.05rem;

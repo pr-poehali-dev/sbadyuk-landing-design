@@ -15,7 +15,7 @@ export default function ContentSections() {
       <section className="section-dark" id="problem">
         <div className="container-inner">
           <div className="section-label">ПРОБЛЕМА</div>
-          <h2 className="section-title">
+          <h2 className="section-title section-title--center">
             Вы слышали, что усталость нужно лечить отдыхом?<br />
             <span className="text-fire">Это ложь.</span>
           </h2>
@@ -40,7 +40,7 @@ export default function ContentSections() {
       <section className="section-light" id="solution">
         <div className="container-inner">
           <div className="section-label dark">РЕШЕНИЕ</div>
-          <h2 className="section-title dark">
+          <h2 className="section-title dark section-title--center">
             Режим — это не про дисциплину.<br />
             <span className="text-fire">Это про свободу.</span>
           </h2>

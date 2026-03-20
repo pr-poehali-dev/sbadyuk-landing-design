@@ -140,13 +140,14 @@ export default function StylesBase() {
         margin-bottom: 8px;
       }
       .hero-tagline {
-        font-size: clamp(3.5rem, 10vw, 7rem);
+        font-size: clamp(2.4rem, 7vw, 7rem);
         font-weight: 700;
         color: var(--text-light);
         letter-spacing: -0.02em;
         display: block;
         text-transform: uppercase;
         line-height: 0.92;
+        white-space: nowrap;
       }
       .hero-sub {
         font-size: 1.05rem;
