@@ -6,10 +6,9 @@ import VKSection from "@/components/landing/VKSection";
 import LandingStyles from "@/components/landing/LandingStyles";
 
 const SOCIALS = [
-  { label: "VK", href: "https://vk.com/sbadyuk" },
-  { label: "TG", href: "https://t.me/sbadyuk" },
-  { label: "YT", href: "https://youtube.com/@sbadyuk" },
-  { label: "IG", href: "https://instagram.com/sbadyuk" },
+  { label: "VK", href: "https://vk.com/feed" },
+  { label: "TG", href: "https://web.telegram.org/" },
+  { label: "YT", href: "https://www.youtube.com/" },
 ];
 
 export default function Index() {
