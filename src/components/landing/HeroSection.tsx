@@ -86,11 +86,15 @@ export default function HeroSection({ menuOpen, setMenuOpen }: HeroSectionProps)
           <p className="hero-sub">
             Для тех, кто устал существовать от выходных до выходных. Кто не чувствует в себе сил восстановить здоровье, взяться за карьеру, наладить семейные отношения и наконец сделать то, что давно откладывали.
           </p>
-          <CountdownBlock />
-          <a href="#contact" className="hero-cta">
-            Хочу большего
-            <Icon name="ArrowRight" size={20} />
-          </a>
+          <div className="hero-center">
+            <CountdownBlock />
+          </div>
+          <div className="hero-center">
+            <a href="#contact" className="hero-cta">
+              Хочу большего
+              <Icon name="ArrowRight" size={20} />
+            </a>
+          </div>
         </div>
         <div className="scroll-hint">
           <Icon name="ChevronDown" size={28} />

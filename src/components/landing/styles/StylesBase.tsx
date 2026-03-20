@@ -212,6 +212,11 @@ export default function StylesBase() {
       .mobile-br { display: none; }
 
       /* ── COUNTDOWN ── */
+      .hero-center {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
       .urgent-banner {
         background: rgba(230,57,70,0.1);
         border: 1px solid rgba(230,57,70,0.35);
