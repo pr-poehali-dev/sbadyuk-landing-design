@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from "react";
 import Icon from "@/components/ui/icon";
 import HeroSection from "@/components/landing/HeroSection";
 import ContentSections from "@/components/landing/ContentSections";
-import VKSection from "@/components/landing/VKSection";
 import LandingStyles from "@/components/landing/LandingStyles";
 
 const SOCIALS = [
@@ -44,8 +43,6 @@ export default function Index() {
       <HeroSection menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
       <ContentSections />
-
-      <VKSection />
 
       {/* CTA */}
       <section className="section-cta" id="contact">
