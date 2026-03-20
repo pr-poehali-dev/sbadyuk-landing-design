@@ -100,9 +100,9 @@ export default function StylesBase() {
         inset: 0;
         background: linear-gradient(
           135deg,
-          rgba(10,10,10,0.97) 0%,
-          rgba(10,10,10,0.75) 50%,
-          rgba(10,10,10,0.4) 100%
+          rgba(10,10,10,0.82) 0%,
+          rgba(10,10,10,0.55) 50%,
+          rgba(10,10,10,0.18) 100%
         );
       }
       .hero-content {
