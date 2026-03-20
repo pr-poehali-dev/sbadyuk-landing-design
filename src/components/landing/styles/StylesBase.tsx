@@ -53,7 +53,7 @@ export default function StylesBase() {
       .nav-logo-img {
         height: 40px;
         width: auto;
-        filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(600%) hue-rotate(330deg) brightness(95%);
+        object-fit: contain;
       }
       .nav-links {
         list-style: none;
