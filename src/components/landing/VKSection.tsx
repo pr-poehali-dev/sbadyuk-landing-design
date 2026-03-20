@@ -71,7 +71,7 @@ export default function VKSection() {
     <section className="section-darker">
       <div className="container-inner">
         <div className="section-label">ПРАКТИКУМ «ЗДОРОВАЯ СПИНА»</div>
-        <h2 className="section-title">Специально для тех,<br />кому мешает боль в спине</h2>
+        <h2 className="section-title section-title--center">Специально для тех,<br />кому мешает боль в спине</h2>
         <VKCarousel />
         <p className="vk-caption">
           Полный курс:{" "}
