@@ -47,11 +47,13 @@ export default function StylesBase() {
         border-bottom: 1px solid rgba(230,57,70,0.15);
       }
       .nav-logo {
-        font-family: var(--font-head);
-        font-size: 1.6rem;
-        font-weight: 700;
-        letter-spacing: 0.15em;
-        color: var(--fire);
+        display: flex;
+        align-items: center;
+      }
+      .nav-logo-img {
+        height: 40px;
+        width: auto;
+        filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(600%) hue-rotate(330deg) brightness(95%);
       }
       .nav-links {
         list-style: none;

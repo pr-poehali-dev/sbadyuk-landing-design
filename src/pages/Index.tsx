@@ -136,7 +136,9 @@ export default function Index() {
 
         {/* Нижняя строка */}
         <div className="footer-inner">
-          <div className="footer-logo">БАДЮК</div>
+          <div className="footer-logo">
+            <img src="https://avatars.mds.yandex.net/i?id=862e0d59f475db47ce8be440b1c6b1c2_l-5232533-images-thumbs&n=13" alt="Бадюк" className="nav-logo-img" />
+          </div>
           <p className="footer-copy">© 2024 Сергей Бадюк. Все права защищены.</p>
           <div className="footer-links">
             <a href="#">Политика конфиденциальности</a>
