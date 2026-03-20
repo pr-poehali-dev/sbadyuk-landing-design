@@ -59,7 +59,7 @@ export default function HeroSection({ menuOpen, setMenuOpen }: HeroSectionProps)
       {/* NAV */}
       <nav className="landing-nav">
         <a href="#home" className="nav-logo">
-          <img src="https://avatars.mds.yandex.net/i?id=b6ac87d06b117d058ce0381d96ee5d0c_l-4600825-images-thumbs&n=13" alt="Бадюк" className="nav-logo-img" />
+          <img src="https://avatars.mds.yandex.net/i?id=15657b502f0e07232ef095162fe803ba334ce116-9180844-images-thumbs&n=13" alt="Бадюк" className="nav-logo-img" />
         </a>
         <button className="nav-burger" onClick={() => setMenuOpen(!menuOpen)}>
           <Icon name={menuOpen ? "X" : "Menu"} size={24} />

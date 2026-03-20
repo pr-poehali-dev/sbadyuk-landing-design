@@ -54,7 +54,7 @@ export default function StylesBase() {
         height: 44px;
         width: auto;
         object-fit: contain;
-        filter: hue-rotate(200deg) saturate(3) brightness(0.95) invert(1);
+        filter: brightness(0) saturate(100%) invert(18%) sepia(99%) saturate(2000%) hue-rotate(340deg) brightness(105%);
         mix-blend-mode: screen;
       }
       .nav-links {
