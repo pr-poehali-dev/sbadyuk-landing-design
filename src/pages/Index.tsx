@@ -121,18 +121,6 @@ export default function Index() {
 
       {/* FOOTER */}
       <footer className="landing-footer">
-        {/* Финальный CTA-блок */}
-        <div className="footer-cta-block">
-          <div className="footer-cta-text">
-            <h3>Начни путь к силе прямо сейчас</h3>
-            <p>21 день практики — и ты другой человек</p>
-          </div>
-          <a href="#signup-form" className="footer-cta-btn" onClick={scrollToForm}>
-            Записаться на практикум
-            <Icon name="ArrowRight" size={18} />
-          </a>
-        </div>
-
         {/* Соцсети */}
         <div className="footer-socials-row">
           <span className="footer-socials-label">Следи за мной:</span>
