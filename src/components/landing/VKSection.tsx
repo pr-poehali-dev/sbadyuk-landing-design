@@ -14,7 +14,7 @@ const vkCards = [
     tag: "ИСТОРИЯ",
     title: "6 грыж. Компрессионный перелом. Восстановился без операции.",
     subtitle: "без операций · без сложных упражнений · без дорогого оборудования",
-    accent: "#f4a261",
+    accent: "#e63946",
     icon: "Shield",
   },
   {
@@ -22,7 +22,7 @@ const vkCards = [
     tag: "РЕЗУЛЬТАТ",
     title: "21 день — и спина перестаёт мешать жить.",
     cta: "Хочу так же",
-    accent: "#2a9d8f",
+    accent: "#e63946",
     icon: "Star",
   },
 ];
@@ -71,7 +71,7 @@ export default function VKSection() {
     <section className="section-darker">
       <div className="container-inner">
         <div className="section-label">ПРАКТИКУМ «ЗДОРОВАЯ СПИНА»</div>
-        <h2 className="section-title">Специально для тех,<br />кому мешает спина</h2>
+        <h2 className="section-title">Специально для тех,<br />кому мешает боль в спине</h2>
         <VKCarousel />
         <p className="vk-caption">
           Полный курс:{" "}
