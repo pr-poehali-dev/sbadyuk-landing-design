@@ -52,14 +52,17 @@ export default function Praktikum() {
         }
         .carousel-iframe {
           width: 100%;
-          height: 600px;
+          height: 900px;
           border: none;
           display: block;
         }
         @media (max-width: 768px) {
           .carousel-iframe {
-            height: 480px;
+            height: 700px;
           }
+        }
+        .section-cta {
+          padding-top: 0 !important;
         }
       `}</style>
 
